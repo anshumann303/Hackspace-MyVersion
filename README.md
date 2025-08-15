@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+Welcome to Hackspace!!!
+Project Info
 
-## Project info
+Repository URL: https://github.com/<anshumann303>/Hackspace-MyVersion
 
-**URL**: https://lovable.dev/projects/82ea11ee-8265-44ac-8ef9-63c7a8a24212
+How to Edit This Code
 
-## How can I edit this code?
+You can work on Hackspace in multiple ways:
 
-There are several ways of editing your application.
+1. Use Your Preferred IDE
 
-**Use Lovable**
+Clone the repository and start developing locally:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/82ea11ee-8265-44ac-8ef9-63c7a8a24212) and start prompting.
+# Step 1: Clone the repository
+git clone https://github.com/<anshumann303>/Hackspace-MyVersion.git
 
-Changes made via Lovable will be committed automatically to this repo.
+# Step 2: Navigate into the project folder
+cd Hackspace-MyVersion
 
-**Use your preferred IDE**
+# Step 3: Install dependencies
+npm install
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This will run the project locally with auto-reloading and instant preview.
 
-**Use GitHub Codespaces**
+2. Edit Directly on GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Navigate to the desired file in the repository.
 
-## What technologies are used for this project?
+Click the Edit (pencil) icon in the top-right corner.
 
-This project is built with:
+Make your changes and commit them.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Use GitHub Codespaces
 
-## How can I deploy this project?
+Open your repository on GitHub.
 
-Simply open [Lovable](https://lovable.dev/projects/82ea11ee-8265-44ac-8ef9-63c7a8a24212) and click on Share -> Publish.
+Click the Code button.
 
-## Can I connect a custom domain to my Lovable project?
+Go to the Codespaces tab.
 
-Yes, you can!
+Click New codespace to launch a ready-to-code environment.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Technologies Used
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Vite
+
+TypeScript
+
+React
+
+shadcn-ui
+
+Tailwind CSS
+
+Deployment
+
+You can deploy Hackspace to your preferred hosting service (Vercel, Netlify, etc.):
+
+Push your latest code to GitHub.
+
+Link the repository to your hosting platform.
+
+Configure build settings:
+
+Build Command: npm run build
+
+Output Directory: dist
+
+Custom Domain
+
+If using Vercel or Netlify, you can connect your own custom domain via their dashboard.
